@@ -1,0 +1,221 @@
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Work Sans", sans-serif;
+  color: #314d5d;
+  background-color: #f2f2f2;
+}
+
+a {
+  color: #de5b48;
+  text-decoration: none;
+}
+
+img, svg {
+  max-width: 100%;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+button:focus {
+  outline: none;
+}
+
+header {
+  height: 80px;
+  position: relative;
+  padding-top: 40px;
+}
+header h1 {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+  header {
+    height: 200px;
+    padding-top: 100px;
+  }
+  header h1 {
+    font-size: 2.2rem;
+  }
+}
+
+.orders {
+  position: absolute;
+  z-index: 100;
+  top: 50px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background: url(https://image.flaticon.com/icons/svg/204/204276.svg) no-repeat center center;
+}
+
+.cd-cart {
+  position: absolute;
+  z-index: 100;
+  top: 50px;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  background: url(https://image.flaticon.com/icons/svg/1055/1055659.svg) no-repeat center center;
+}
+
+.cd-cart span {
+  /* number of items added to the cart */
+  position: absolute;
+  z-index: 101;
+  top: 2px;
+  right: 5px;
+  height: 18px;
+  width: 18px;
+  line-height: 18px;
+  background-color: #46b29d;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+}
+@media only screen and (min-width: 1100px) {
+  .cd-cart {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+  }
+  .orders{
+    position: fixed;
+    top: 120px;
+    right: 30px;
+  }
+
+}
+
+/* -------------------------------- 
+
+Gallery grid
+
+-------------------------------- */
+.cd-gallery {
+  width: 90%;
+  max-width: 1100px;
+  margin: 1.5em auto;
+}
+.cd-gallery > li {
+  margin-bottom: 2em;
+}
+@media only screen and (min-width: 768px) {
+  .cd-gallery {
+    margin-top: 2em;
+  }
+  .cd-gallery::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .cd-gallery > li {
+    width: 48%;
+    float: left;
+    margin: 0 4% 6% 0;
+  }
+  .cd-gallery > li:nth-of-type(2n) {
+    margin-right: 0;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .cd-gallery {
+    margin-top: 2.5em;
+  }
+  .cd-gallery > li {
+    width: 30%;
+    float: left;
+    margin: 0 5% 5% 0;
+  }
+  .cd-gallery > li:nth-of-type(2n) {
+    margin-right: 5%;
+  }
+  .cd-gallery > li:nth-of-type(3n) {
+    margin-right: 0;
+  }
+}
+
+/* -------------------------------- 
+
+Single Item
+
+-------------------------------- */
+.cd-single-item {
+  position: relative;
+  height: 340px;
+  z-index: 100;
+}
+
+/* -------------------------------- 
+
+Product Customization
+
+-------------------------------- */
+
+
+.add-to-cart {
+  width: calc(50% - 25px);
+  float: right;
+  line-height: 34px;
+  background-color: #46b29d;
+
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+.cd-item-info {
+  padding: 1em .5em 0;
+  color: #314d5d;
+  font-weight: bold;
+}
+.cd-item-info::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.cd-item-info strong {
+  float: left;
+}
+.cd-item-info em {
+  float: right;
+  color: #5484a0;
+}
+.cd-item-info a {
+  color: #314d5d;
+}
+.cd-item-info a:hover {
+  text-decoration: underline;
+}
+.cd-item-info p {
+  font-size: 2px;
+}

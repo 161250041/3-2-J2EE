@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>商品列表</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    <script>
+        var hasBought=new Array();
+        function Commodity(id,num)
+        {
+            this.id=id;
+            this.num=num;
+        }
+        Commodity.prototype= {
+            id:null,
+            num:null,
+            show:function()
+            {
+                alert(this.id+" "+this.num);
+            }
+        }
+        function clickToCart(event)
+        {
+            event.parentElement.parentElement.parentElement.style.backgroundColor="LightSteelBlue"
+            event.style.backgroundColor="gray"
+            event.innerHTML="已加入购物车"
+            event.onclick=null
+            event.previousElementSibling.disabled=true
+            event.previousElementSibling.style.backgroundColor="Gainsboro"
+            document.getElementsByName("span").item(0).innerText=new Number(document.getElementsByName("span").item(0).innerText)+1
+            var id=new Number(event.parentElement.parentElement.nextElementSibling.firstElementChild.innerHTML.substr(3));
+            var num=new Number(event.previousElementSibling.value);
+            var com=new Commodity(id,num);
+            hasBought[hasBought.length]=com
+        }
+    </script>
+    <script>
+        function clickPayment(){
+        if(hasBought.length!==0){
+            var xhr = new XMLHttpRequest();
+            var url="../takeorder";
+            xhr.open("post", url, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var res=xhr.responseText
+                    if (res ==="null") {
+                        alert("请先登陆")
+                        location.replace("signin.html");
+                    }else{
+                        var json=JSON.parse(res);
+                        var realprice = json.realprice
+                        var balance=json.balance
+                        var r=confirm("折后价格"+realprice+"  您的余额为"+balance+"  确认支付吗？")
+                        if (r==true){
+                            if(realprice>balance) {
+                                alert("余额不足支付失败")
+                                window.location.href = "commodity.html"
+                            }
+                            else{
+                                alert("支付成功")
+
+                                //将order变为有效
+                                var xhr1 = new XMLHttpRequest();
+                                var url1="../payment"
+                                xhr1.open("post", url1, true);
+                                xhr1.onreadystatechange=function () {
+                                    if (xhr1.readyState == 4 && xhr1.status == 200) {
+                                        //跳转到orderlist
+                                        window.location.href = "../orderlist"
+                                    }
+                                }
+                                xhr1.setRequestHeader("post", "application/json")
+                                xhr1.send(res);
+                            }
+                        }
+                        else{
+                            alert("订单已取消")
+                            window.location.href = "commodity.html"
+                        }
+                    }
+
+                }
+            };
+            // alert(JSON.stringify(hasBought))
+            xhr.setRequestHeader("post", "application/json")
+            xhr.send(JSON.stringify(hasBought))
+        }
+
+    }
+    </script>
+    <script>
+        function gotoOrderList(){
+        window.location.href = "../orderlist"
+    }
+    </script>
+
+</head>
+<body>
+<a href="#" class="cd-cart" onclick="clickPayment()" >
+    <span name="span">0</span>
+    <p style="position: absolute;top:40px;right: 0px ;font-size: 1rem;font-weight: bold;color: black">付款</p>
+</a>
+<a href="#" class="orders" onclick="gotoOrderList()" >
+    <p style="position: absolute;top:40px;right: 0px ;font-size: 1rem;font-weight: bold;color: black">已有订单</p>
+</a>
+
+<p style="position: fixed;z-index: 100;top: 300px;right: 10px;color:#778899;font-size:3px;text-align:left;
+border-left: 8px double #B0C4DE;" >
+    累计金额<br/>200～400元：<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp9折优惠<br/>400元以上：<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp8折优惠</p>
+<ul class="cd-gallery">
+
+    <li name="commodity" style="position: relative; height: 470px;padding: 10px;background-color: white;list-style:none;">
+
+        <div class="cd-single-item">
+            <img src="http://img.hb.aicdn.com/d02663fb6d9ab28892dc4028b9d118db38c55cc250de-qJczgP_fw658" style="z-index: -10;position: relative;"  width="330" height="330" alt="commodities image">
+        </div>
+        <div>
+            <p style="font-family:verdana;color:gray;font-size:2px">&nbsp&nbsp选择购买数量(1~99) :<input style="z-index: 100" type="number" value="1" min="1" max="99">
+            <button class="add-to-cart" onclick="clickToCart(this)">
+                <strong>加入购物车</strong>
+            </button>
+        </div>
+        <div class="cd-item-info">
+            <p style="height: 3px">id:1</p><strong><a>透明玻璃瓶</a></strong>
+            <em>25.00</em>
+        </div>
+    </li>
+
+    <li name="commodity" style="position: relative; height: 470px;padding: 10px;background-color: white;list-style:none;">
+
+        <div class="cd-single-item">
+            <img src="http://img.hb.aicdn.com/135c5d22aac15c68d2ab3de17057b2b0516bbb2018db8-DcngQL_fw658" style="z-index: -10;position: relative;"  width="330" height="330" alt="commodities image">
+        </div>
+        <div>
+            <p style="font-family:verdana;color:gray;font-size:2px">&nbsp&nbsp选择购买数量(1~99) :<input style="z-index: 100" type="number" value="1" min="1" max="99">
+                <button class="add-to-cart" onclick="clickToCart(this)">
+                    <strong>加入购物车</strong>
+                </button>
+        </div>
+        <div class="cd-item-info">
+            <p style="height: 3px">id:2</p><strong><a>手账本</a></strong>
+            <em>20.00</em>
+        </div>
+    </li>
+    <li name="commodity" style="position: relative; height: 470px;padding: 10px;background-color: white;list-style:none;">
+
+        <div class="cd-single-item">
+            <img src="http://img.hb.aicdn.com/9aed7a02da34fa8e8da33f7d83070ebda8b5e7e8dee2-627JQA_fw658" style="z-index: -10;position: relative;"  width="330" height="330" alt="commodities image">
+        </div>
+        <div>
+            <p style="font-family:verdana;color:gray;font-size:2px">&nbsp&nbsp选择购买数量(1~99) :<input style="z-index: 100" type="number" value="1" min="1" max="99">
+                <button class="add-to-cart" onclick="clickToCart(this)">
+                    <strong>加入购物车</strong>
+                </button>
+        </div>
+        <div class="cd-item-info">
+            <p style="height: 3px">id:3</p><strong><a>宜家气泡水</a></strong>
+            <em>6.50</em>
+        </div>
+    </li>
+    <li name="commodity" style="position: relative; height: 470px;padding: 10px;background-color: white;list-style:none;">
+
+        <div class="cd-single-item">
+            <img src="http://img.hb.aicdn.com/0cf3cdc3824067506b4b38f94b648bb0ed0e432313460-9zA0BH_fw658" style="z-index: -10;position: relative;"  width="330" height="330" alt="commodities image">
+        </div>
+        <div>
+            <p style="font-family:verdana;color:gray;font-size:2px">&nbsp&nbsp选择购买数量(1~99) :<input style="z-index: 100" type="number" value="1" min="1" max="99">
+                <button class="add-to-cart" onclick="clickToCart(this)">
+                    <strong>加入购物车</strong>
+                </button>
+        </div>
+        <div class="cd-item-info">
+            <p style="height: 3px">id:4</p><strong><a>装饰品</a></strong>
+            <em>30.00</em>
+        </div>
+    </li>
+    <li name="commodity" style="position: relative; height: 470px;padding: 10px;background-color: white;list-style:none;">
+
+        <div class="cd-single-item">
+            <img src="http://img.hb.aicdn.com/00a4387af27cd2467a6a3db23a5a90b309a2e0f5b913-gOfNTH_fw658" style="z-index: -10;position: relative;"  width="330" height="330" alt="commodities image">
+        </div>
+        <div>
+            <p style="font-family:verdana;color:gray;font-size:2px">&nbsp&nbsp选择购买数量(1~99) :<input style="z-index: 100" type="number" value="1" min="1" max="99">
+                <button class="add-to-cart" onclick="clickToCart(this)">
+                    <strong>加入购物车</strong>
+                </button>
+        </div>
+        <div class="cd-item-info">
+            <p style="height: 3px">id:5</p><strong><a>储物架</a></strong>
+            <em>150.50</em>
+        </div>
+    </li>
+    <li name="commodity" style="position: relative; height: 470px;padding: 10px;background-color: white;list-style:none;">
+
+        <div class="cd-single-item">
+            <img src="http://img.hb.aicdn.com/8bc88a7964fc9c98da4bda3c245fcb0de2ab5ad0ada0-j1ctzD_fw658" style="z-index: -10;position: relative;"  width="330" height="330" alt="commodities image">
+        </div>
+        <div>
+            <p style="font-family:verdana;color:gray;font-size:2px">&nbsp&nbsp选择购买数量(1~99) :<input style="z-index: 100" type="number" value="1" min="1" max="99">
+                <button class="add-to-cart" onclick="clickToCart(this)">
+                    <strong>加入购物车</strong>
+                </button>
+        </div>
+        <div class="cd-item-info">
+            <p style="height: 3px">id:6</p><strong><a>香薰蜡烛</a></strong>
+            <em>80.00</em>
+        </div>
+    </li>
+    <li name="commodity" style="position: relative; height: 470px;padding: 10px;background-color: white;list-style:none;">
+
+        <div class="cd-single-item">
+            <img src="http://img.hb.aicdn.com/b214c1812cbd621ef39e8f178c1e99f36fb76dd810720-14tUdg_fw658" style="z-index: -10;position: relative;"  width="330" height="330" alt="commodities image">
+        </div>
+        <div>
+            <p style="font-family:verdana;color:gray;font-size:2px">&nbsp&nbsp选择购买数量(1~99) :<input style="z-index: 100" type="number" value="1" min="1" max="99">
+                <button class="add-to-cart" onclick="clickToCart(this)">
+                    <strong>加入购物车</strong>
+                </button>
+        </div>
+        <div class="cd-item-info">
+            <p style="height: 3px">id:7</p><strong><a>床上用品套装</a></strong>
+            <em>540.00</em>
+        </div>
+    </li>
+
+</ul>
+</body>
+</html>
