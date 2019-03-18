@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/Yummy</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+
+        <!-- 设置方言 -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</property>
+        <!-- 注册当前session上下文：保证同一线程中获得的session是同一个session-->
+        <property name="hibernate.current_session_context_class">thread</property>
+
+        <!-- 自动建表 -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <!-- 显示SQL -->
+        <property name="hibernate.show_sql">true</property>
+        <!-- 格式化SQL -->
+        <property name="hibernate.format_sql">true</property>
+
+        <mapping class="edu.nju.yummy.Model.Address"/>
+        <mapping resource="Address.hbm.xml"/>
+        <mapping class="edu.nju.yummy.Model.CommodityInfo"/>
+        <mapping resource="CommodityInfo.hbm.xml"/>
+        <mapping class="edu.nju.yummy.Model.Restaurant"/>
+        <mapping resource="Restaurant.hbm.xml"/>
+        <mapping class="edu.nju.yummy.Model.User"/>
+        <mapping resource="User.hbm.xml"/>
+        <mapping class="edu.nju.yummy.Model.Verification"/>
+        <mapping resource="Verification.hbm.xml"/>
+        <mapping class="edu.nju.yummy.Model.OnlineBanking"/>
+        <mapping resource="OnlineBanking.hbm.xml"/>
+        <mapping class="edu.nju.yummy.Model.Order"/>
+        <mapping resource="Order.hbm.xml"/>
+
+
+    </session-factory>
+
+</hibernate-configuration>

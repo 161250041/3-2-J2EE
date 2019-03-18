@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="edu.nju.yummy.Model.Order" table="Order" schema="Yummy">
+        <id name="orderId" column="orderId"/>
+        <property name="email" column="email"/>
+        <property name="commoditys" column="commoditys"/>
+        <property name="addressId" column="addressId"/>
+        <property name="beginTime" column="beginTime"/>
+        <property name="expectedDeliveryTime" column="expectedDeliveryTime"/>
+        <property name="actualDeliveryTime" column="actualDeliveryTime"/>
+        <property name="price" column="price"/>
+        <property name="actualPrice" column="actualPrice"/>
+        <property name="state" column="state"/>
+        <property name="refund" column="refund"/>
+        <property name="restaurantProfit" column="restaurantProfit"/>
+        <property name="restaurantId" column="restaurantId"/>
+    </class>
+</hibernate-mapping>

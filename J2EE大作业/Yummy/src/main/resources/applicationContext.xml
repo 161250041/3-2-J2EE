@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <context:annotation-config/>
+    <!--扫描注解的文件-->
+    <!-- 告诉Spring不用管理@controller标记的类 -->
+    <context:component-scan base-package="edu.nju.yummy">
+        <!--<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>-->
+    </context:component-scan>
+
+
+    <!-- 配置dataSource -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+        <property name="driverClass" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost:3306/Yummy?useSSL=FALSE"/>
+        <property name="user" value="root"/>
+        <property name="password" value="123123"/>
+        <property name="initialPoolSize" value="5"/>
+        <property name="maxPoolSize" value="30"/>
+    </bean>
+
+    <!--加载Hibernate的主配置文件，又使用Spring的数据库连接池-->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="edu.nju.yummy.Model"/>
+    </bean>
+
+
+    <!-- 使用annotation定义事务 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+    <!--事务管理-->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+
+    <!--&lt;!&ndash;注入Bean&ndash;&gt;-->
+    <!--<bean id="userService" class="edu.nju.yummy.ServiceImpl.UserServiceImpl"/>-->
+    <!--<bean id="managerService" class="edu.nju.yummy.ServiceImpl.ManagerServiceImpl"/>-->
+    <!--<bean id="restaurantService" class="edu.nju.yummy.ServiceImpl.RestaurantServiceImpl"/>-->
+
+
+
+
+
+    <!--&lt;!&ndash; don't handle the static resource &ndash;&gt;-->
+    <!--<mvc:default-servlet-handler />-->
+
+    <!--&lt;!&ndash; if you use annotation you must configure following setting &ndash;&gt;-->
+    <!--<mvc:annotation-driven />-->
+
+    <!--&lt;!&ndash; configure the InternalResourceViewResolver &ndash;&gt;-->
+    <!--<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"-->
+          <!--id="internalResourceViewResolver">-->
+        <!--&lt;!&ndash; 前缀 &ndash;&gt;-->
+        <!--<property name="prefix" value="/WEB-INF/jsp/" />-->
+        <!--&lt;!&ndash; 后缀 &ndash;&gt;-->
+        <!--<property name="suffix" value=".jsp" />-->
+    <!--</bean>-->
+
+
+
+
+
+</beans>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <!--tls????????Tag Library Descriptor-->
+    <!--Custom Tag(?????)????????JSP????Java???????Java-->
+
+    <tlib-version>1.0</tlib-version>
+    <short-name>TagLibrary</short-name>
+    <uri>/JspTags</uri>
+
+    <!-- Invoke 'Generate' action to add tags or functions -->
+
+    <!--<tag>-->
+    <!--<name>listStock</name>-->
+    <!--<tag-class>tag.LoopListTag</tag-class>-->
+    <!--<body-content>empty</body-content>-->
+    <!--<attribute>-->
+    <!--<name>list</name>-->
+    <!--<required>true</required>-->
+    <!--<rtexprvalue>true</rtexprvalue>-->
+    <!--</attribute>-->
+    <!--</tag>-->
+
+    <function>
+        <name>add</name>
+        <function-class>edu.nju.onlineStock.tag.MethodsTag</function-class>
+        <function-signature>int add(int ,int)</function-signature>
+    </function>
+</taglib>

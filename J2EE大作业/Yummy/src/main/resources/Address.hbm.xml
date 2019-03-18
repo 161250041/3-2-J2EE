@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="edu.nju.yummy.Model.Address" table="Address" schema="Yummy">
+        <id name="addressId" column="addressId">
+            <generator class="increment"/>
+        </id>
+        <property name="address" column="address"/>
+        <property name="position" column="position"/>
+        <!-- 多对一 -->
+        <!--
+            name属性它描述的是Address类中的一的一方的属性名称：User u;
+            class属性代表的是一的一方的类型
+            column属性描述的是一对多，在多的一方产生的外键的名称：userId
+        -->
+        <many-to-one name="user" column="userId" cascade="save-update,persist" fetch="select" class="edu.nju.yummy.Model.User"/>
+
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="OrderApp:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml" description="&lt;/aop:config&gt;" line="73" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/OrderDaoImpl.java" line="50" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70752d42-b529-4157-ad14-0f21ab15f765" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="J2EEOrderPj@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="J2EEOrderPj@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="J2EEOrderPj@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="J2EEOrderPj: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="J2EEOrderPj@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="J2EEOrderPj: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="Commodities: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="J2EEOrderPj@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="J2EEOrderPj: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="Orders: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="J2EEOrderPj@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="J2EEOrderPj: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="User: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/CommodityList.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="77">
+              <caret line="257" column="33" selection-start-line="257" selection-start-column="33" selection-end-line="257" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/CommoditiesEntity.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/OrderList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/Payment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/CommoditiesEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/CommodityInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/OrdersEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+              <folding>
+                <element signature="e#1634#1635#0" expanded="true" />
+                <element signature="e#1672#1673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/UserDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/Signin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="hibernate-configuration-5.2" />
+        <option value="hibernate-main-5.2" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mapping</find>
+      <find>xml</find>
+      <find>Id</find>
+      <find>order</find>
+      <find>hibernateE</find>
+      <find>hiber</find>
+      <find>ssl</find>
+      <find>rollback</find>
+      <find>kkk</find>
+      <find>session = HibernateUtil.currentSession();</find>
+      <find>HibernateUtil.closeSession();</find>
+      <find>close</find>
+      <find>tra</find>
+      <find>dataSource</find>
+      <find>transaction</find>
+      <find>root</find>
+      <find>se</find>
+      <find>dispatcher</find>
+      <find>getSer</find>
+      <find>onclick</find>
+      <find>res</find>
+      <find>context</find>
+      <find>in</find>
+      <find>manager</find>
+      <find>save</find>
+      <find>transactionManager</find>
+      <find>txAdvice</find>
+      <find>list</find>
+      <find>json</find>
+      <find>gson</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>session = sessionFactory.getCurrentSession();</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/ServiceImpl/SigninServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/OrderList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Action/Business/InvalidOrderList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Action/Business/ValidOrderList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Action/Business/InvalidOrderListBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Filters/MyFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/servlets/Signin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/servlets/TakeOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/servlets/Payment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Action/Business/ValidOrderListBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Action/Business/OrderListBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/servlets/OrderList.java" />
+        <option value="$PROJECT_DIR$/web/OrderList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/OrderList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Dao/CommodityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Dao/OrderDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Service/CommodityService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Service/OrderService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Action/Business/CommodityListBean.java" />
+        <option value="$PROJECT_DIR$/web/CommodityList.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Model/OrdersEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Model/UserEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Model/CommoditiesEntity.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Model/CommoditiesEntity.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Model/OrdersEntity.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/edu/order/DaoImpl/UserDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/Payment.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/hibernate/c3p0/internal/C3P0ConnectionProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/edu/order/DaoImpl/CommodityDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Model/UserEntity.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/edu/order/ServiceImpl/CommodityServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/ServiceImpl/CommodityServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/edu/order/ServiceImpl/OrderServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/ServiceImpl/OrderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/ServiceImpl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/edu/order/ServiceImpl/UserServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/nju/edu/order/DaoImpl/OrderDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Factory/ServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/CommodityDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/Signin.java" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/OrderDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/TakeOrder.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="OrderApp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="787" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="DaoImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ServiceImpl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderPj" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.code.gson:gson:2.8.5" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="OrderPj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.google.protobuf:protobuf-java:3.6.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="88254c9e-e473-4456-8eef-c6448166e8e4" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551198349817" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="nju.edu.order.ServiceImpl" />
+      <recent name="nju.edu.order.DBImpl" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="nju.edu.order.Model" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="nju.edu.order.ServiceImpl" />
+      <recent name="nju.edu.order.DaoImpl" />
+      <recent name="nju.edu.order.DBImpl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$/web" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nju.edu.order.servlets" />
+      <recent name="edu.nju.order" />
+      <recent name="UTIL" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+      <recent name="$PROJECT_DIR$/web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.14">
+    <configuration name="OrderServiceImplTest.getValidOrdersByUserID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OrderPj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.edu.order.ServiceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nju.edu.order.ServiceImpl" />
+      <option name="MAIN_CLASS_NAME" value="nju.edu.order.ServiceImpl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="getValidOrdersByUserID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceImplTest.getnotValidOrdersByUserID" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OrderPj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.edu.order.ServiceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nju.edu.order.ServiceImpl" />
+      <option name="MAIN_CLASS_NAME" value="nju.edu.order.ServiceImpl.OrderServiceImplTest" />
+      <option name="METHOD_NAME" value="getnotValidOrdersByUserID" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.getBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OrderPj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.edu.order.ServiceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nju.edu.order.ServiceImpl" />
+      <option name="MAIN_CLASS_NAME" value="nju.edu.order.ServiceImpl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="getBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.modifyBalance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OrderPj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.edu.order.ServiceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nju.edu.order.ServiceImpl" />
+      <option name="MAIN_CLASS_NAME" value="nju.edu.order.ServiceImpl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="modifyBalance" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.signin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OrderPj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="nju.edu.order.ServiceImpl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="nju.edu.order.ServiceImpl" />
+      <option name="MAIN_CLASS_NAME" value="nju.edu.order.ServiceImpl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="signin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="aopalliance-1.0.jar" type="JarApplication" factoryName="JAR Application">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/aopalliance-1.0.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tomcat 9.0.14" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/signin.html" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="OrderApp:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_14_OrderApp" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="63994" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="OrderApp:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JAR Application.aopalliance-1.0.jar" />
+      <item itemvalue="JUnit.OrderServiceImplTest.getValidOrdersByUserID" />
+      <item itemvalue="JUnit.OrderServiceImplTest.getnotValidOrdersByUserID" />
+      <item itemvalue="JUnit.UserServiceImplTest.signin" />
+      <item itemvalue="JUnit.UserServiceImplTest.getBalance" />
+      <item itemvalue="JUnit.UserServiceImplTest.modifyBalance" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.14" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserServiceImplTest.modifyBalance" />
+        <item itemvalue="JUnit.UserServiceImplTest.getBalance" />
+        <item itemvalue="JUnit.UserServiceImplTest.signin" />
+        <item itemvalue="JUnit.OrderServiceImplTest.getnotValidOrdersByUserID" />
+        <item itemvalue="JUnit.OrderServiceImplTest.getValidOrdersByUserID" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70752d42-b529-4157-ad14-0f21ab15f765" name="Default Changelist" comment="" />
+      <created>1545288939857</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545288939857</updated>
+      <workItem from="1545288943696" duration="25000" />
+      <workItem from="1545291943313" duration="14000" />
+      <workItem from="1545292489598" duration="10000" />
+      <workItem from="1545292598782" duration="3022000" />
+      <workItem from="1545309265787" duration="84000" />
+      <workItem from="1545350826080" duration="6248000" />
+      <workItem from="1545371811901" duration="549000" />
+      <workItem from="1545410259668" duration="3724000" />
+      <workItem from="1545414327107" duration="82123000" />
+      <workItem from="1545673927534" duration="2827000" />
+      <workItem from="1545712945582" duration="22000" />
+      <workItem from="1545712997127" duration="599000" />
+      <workItem from="1545714276546" duration="490000" />
+      <workItem from="1545715824811" duration="41000" />
+      <workItem from="1545720101015" duration="328000" />
+      <workItem from="1545720522586" duration="74000" />
+      <workItem from="1545721320948" duration="1416000" />
+      <workItem from="1545723031797" duration="6435000" />
+      <workItem from="1545732202801" duration="941000" />
+      <workItem from="1546686117274" duration="15991000" />
+      <workItem from="1546789696987" duration="669000" />
+      <workItem from="1547024208669" duration="18000" />
+      <workItem from="1547645522517" duration="8089000" />
+      <workItem from="1547963669321" duration="15645000" />
+      <workItem from="1547993666133" duration="1368000" />
+      <workItem from="1547995253662" duration="649000" />
+      <workItem from="1548058599989" duration="11978000" />
+      <workItem from="1548582456079" duration="5033000" />
+      <workItem from="1548600502380" duration="10000" />
+      <workItem from="1550062635698" duration="8000" />
+      <workItem from="1550851933724" duration="39000" />
+      <workItem from="1550852063891" duration="41000" />
+      <workItem from="1550852155282" duration="1896000" />
+      <workItem from="1550859864527" duration="1244000" />
+      <workItem from="1550915021732" duration="113000" />
+      <workItem from="1550915178235" duration="69000" />
+      <workItem from="1551003288368" duration="6729000" />
+      <workItem from="1551063182882" duration="7821000" />
+      <workItem from="1551253922123" duration="1730000" />
+      <workItem from="1551256711047" duration="13000" />
+      <workItem from="1551675889956" duration="453000" />
+      <workItem from="1551676534098" duration="163000" />
+      <workItem from="1551677245229" duration="635000" />
+      <workItem from="1552098354636" duration="3508000" />
+      <workItem from="1552210299084" duration="628000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="CommodityServiceImplTest - 2019.01.22 at 23h 28m 25s.xml">
+      <configuration name="CommodityServiceImplTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceImplTest_getValidOrdersByUserID - 2019.01.22 at 23h 37m 08s.xml">
+      <configuration name="OrderServiceImplTest.getValidOrdersByUserID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceImplTest_getValidOrdersByUserID - 2019.01.22 at 23h 37m 37s.xml">
+      <configuration name="OrderServiceImplTest.getValidOrdersByUserID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="OrderServiceImplTest_getnotValidOrdersByUserID - 2019.01.22 at 23h 38m 11s.xml">
+      <configuration name="OrderServiceImplTest.getnotValidOrdersByUserID" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_signin - 2019.01.22 at 23h 42m 56s.xml">
+      <configuration name="UserServiceImplTest.signin" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_getBalance - 2019.01.22 at 23h 44m 02s.xml">
+      <configuration name="UserServiceImplTest.getBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_modifyBalance - 2019.01.22 at 23h 44m 28s.xml">
+      <configuration name="UserServiceImplTest.modifyBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_modifyBalance - 2019.01.22 at 23h 46m 12s.xml">
+      <configuration name="UserServiceImplTest.modifyBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_modifyBalance - 2019.01.22 at 23h 48m 24s.xml">
+      <configuration name="UserServiceImplTest.modifyBalance" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserServiceImplTest_modifyBalance - 2019.01.22 at 23h 50m 10s.xml">
+      <configuration name="UserServiceImplTest.modifyBalance" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="193512000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Persistence" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49788135" visible="true" weight="0.32761088" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="3" sideWeight="0.50211865" side_tool="true" weight="0.19742489" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5450644" weight="0.41714287" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997155" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32857144" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49928468" weight="0.32857144" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.4549356" side_tool="true" weight="0.41714287" />
+      <window_info anchor="bottom" id="Application Servers" order="11" sideWeight="0.49928468" weight="0.32857144" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" sideWeight="0.49928468" weight="0.32857144" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.4828326" visible="true" weight="0.3257143" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32859176" />
+      <window_info anchor="bottom" id="Spring" order="16" sideWeight="0.49928468" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.24964234" />
+      <window_info anchor="right" id="Database" order="8" visible="true" weight="0.16809729" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Service/CommodityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Action/Business/CommodityListBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/OrdersEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="575" column="8" lean-forward="true" selection-start-line="575" selection-start-column="8" selection-end-line="575" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/UserEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/Order.java" />
+    <entry file="das://88254c9e-e473-4456-8eef-c6448166e8e4/schema/J2EEOrderPj/table/Commodities" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/edu/order/DaoImpl/OrderDBImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/edu/order/DaoImpl/UserDaoImplTest.java" />
+    <entry file="das://88254c9e-e473-4456-8eef-c6448166e8e4/schema/J2EEOrderPj/table/Orders" />
+    <entry file="jar:///usr/local/Cellar/tomcat/9.0.14/libexec/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="290" selection-start-line="290" selection-end-line="290" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/hibernate/c3p0/internal/C3P0ConnectionProvider.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring-config.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/edu/order/DaoImpl/CommodityDaoImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/edu/order/ServiceImpl/OrderServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="37" column="1" lean-forward="true" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding>
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/ServiceImpl/OrderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/edu/order/DaoImpl/OrderDaoImplTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Factory/DaoFactory.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/HibernateUtil.java" />
+    <entry file="das://88254c9e-e473-4456-8eef-c6448166e8e4/schema/J2EEOrderPj/table/User" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/edu/order/ServiceImpl/UserServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#743#744#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#814#815#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/ServiceImpl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Factory/ServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="54" column="20" lean-forward="true" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/OrderList.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/local/Cellar/tomcat/9.0.14/libexec/lib/servlet-api.jar!/javax/servlet/GenericServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#916#917#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/signin.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/nju/edu/order/ServiceImpl/CommodityServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/ServiceImpl/CommodityServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="34" selection-start-column="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/OrderDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#OrderDaoImpl#0;class#OrderDaoImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Dao/CommodityDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/CommodityDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Dao/OrderDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/DataBaseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/Logout.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/TakeOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="48" column="44" selection-start-line="48" selection-start-column="44" selection-end-line="48" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/CommoditiesEntity.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/CommoditiesEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/CommodityInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/OrdersEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1672#1673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Model/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/DaoImpl/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CommodityList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="257" column="33" selection-start-line="257" selection-start-column="33" selection-end-line="257" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/Signin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="93" column="36" selection-start-line="93" selection-start-column="36" selection-end-line="93" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/OrderList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nju/edu/order/Controller/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="38" column="64" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>OrderApp:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate (OrderPj)|Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>OrderPj</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.hamcrest:hamcrest-core:1.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

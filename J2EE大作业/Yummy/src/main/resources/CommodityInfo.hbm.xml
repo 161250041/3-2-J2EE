@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="edu.nju.yummy.Model.CommodityInfo" table="CommodityInfo" schema="Yummy">
+        <id name="commodityId" column="commodityId"/>
+        <property name="restaurantId" column="restaurantId"/>
+        <property name="commodityName" column="commodityName"/>
+        <property name="commodityPrice" column="commodityPrice"/>
+        <property name="commodityNum" column="commodityNum"/>
+        <property name="beginTime" column="beginTime"/>
+        <property name="endTime" column="endTime"/>
+        <property name="type" column="type"/>
+    </class>
+</hibernate-mapping>

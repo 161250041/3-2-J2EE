@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="edu.nju.yummy.Model.User" table="User" schema="Yummy">
+        <id name="userId" column="userId"/>
+        <property name="email" column="email"/>
+        <property name="password" column="password"/>
+        <property name="userName" column="userName"/>
+        <property name="phoneNumber" column="phoneNumber"/>
+        <property name="consumption" column="consumption"/>
+        <!-- 一个客户关联多个地址 -->
+        <!--
+            使用set来描述在一的一方中关联的多，也即Set<Address>
+            它的name属性就是Set集合的名称：addressSet
+            key：它主要描述关联的多的一方产生的外键名称，注意要与多的一方定义的外键名称相同
+            one-to-many：主要描述集合中的类型
+        -->
+        <!--<list name = "addressSet" table = "Address">-->
+            <!--<key column="userId"/>-->
+            <!--<one-to-many class="edu.nju.yummy.Model.Address"/>-->
+        <!--</list>-->
+        <!--cascade="all-delete-orphan"-->
+        <list name="addressSet" table="Address" cascade="all-delete-orphan" inverse="true" >
+            <key column="userId"/>
+            <list-index column="position"/>
+            <one-to-many class="edu.nju.yummy.Model.Address"/>
+        </list>
+    </class>
+</hibernate-mapping>

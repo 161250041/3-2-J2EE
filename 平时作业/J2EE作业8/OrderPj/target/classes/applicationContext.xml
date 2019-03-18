@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+      http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/aop
+      http://www.springframework.org/schema/aop/spring-aop.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd
+      http://www.springframework.org/schema/tx
+      http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+
+
+
+    <!--注入Bean采用注解方式-->
+    <!--给service的实现类添加@Service注解 给dao的实现类添加@Repository注解 将生命周期管理交给spring-->
+
+    <!-- 扫描有注解的文件 base-package 包路径 -->
+    <context:component-scan base-package="nju.edu.order"/>
+
+    <!--&lt;!&ndash; 定义 Autowired 自动注入 bean &ndash;&gt;-->
+    <!--<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>-->
+
+
+    <!-- 配置dataSource -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+    <property name="driverClass" value="com.mysql.jdbc.Driver"/>
+        <property name="jdbcUrl"
+                  value="jdbc:mysql://localhost:3306/J2EEOrderPj?useSSL=FALSE"/>
+        <property name="user" value="root"/>
+        <property name="password" value="12345678"/>
+        <property name="initialPoolSize" value="5"/>
+        <property name="maxPoolSize" value="30"/>
+    </bean>
+
+
+    <!-- 配置sessionFactory -->
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="nju.edu.order.Model"/>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect"> org.hibernate.dialect.MySQL57Dialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+                <prop key="hibernate.connection.autocommit">true</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--事务管理  不要去手动关闭session 会自动关闭的-->
+    <bean id="transactionManager" class="org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+
+
+    <!--事务管理声明方式-->
+     <!--声明式容器事务管理 ,transaction-manager指定事务管理器为transactionManager-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*"/>
+        </tx:attributes>
+    </tx:advice>
+
+
+     <!--定义切面，在service包及子包中所有方法中,执行有关的hibernate session的事务操作-->
+    <aop:config>
+    <!-- 只对业务逻辑层实施事务 -->
+         <aop:pointcut id="serviceOperation" expression="execution( * nju.edu.order.ServiceImpl..*.*(..))"/>
+         <aop:advisor advice-ref="txAdvice" pointcut-ref="serviceOperation"/>
+    </aop:config>
+
+
+    <!--事务管理注解方式-->
+    <!--在具体的类(或类的方法)上使用@Transactional注解-->
+    <!--<tx:annotation-driven transaction-manager="transactionManager"/>-->
+
+
+    <!-- 配置hibernateTemplate 和manager配一个就行-->
+    <!--<bean id="hibernateTemplate" class="org.springframework.orm.hibernate5.HibernateTemplate">-->
+        <!--<property name="sessionFactory" ref="sessionFactory"/>-->
+    <!--</bean>-->
+
+</beans>
